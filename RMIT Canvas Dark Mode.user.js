@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         RMIT Canvas Dark Mode
-// @version      0.4
+// @version      0.5
 // @description  Dark mode on RMIT's Canvas web app
 // @author       Chameleon
 // @include      http*://*rmit.instructure.com/*
@@ -13,6 +13,7 @@ var unDarkMode=[
     '.avatar',
     '.video-content-container',
     'img',
+    'video',
     '.ic-DashboardCard__header_image'
 ];
 
